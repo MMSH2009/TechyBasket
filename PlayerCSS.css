@@ -1,1 +1,12 @@
-c
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent browser default margin/padding */
+        }
+
+        #m3u8Player {
+            width: 100%;
+            max-width: 800px; /* Set your desired maximum width */
+            margin: 0 auto; /* Center the video */
+            display: block;
+        }
